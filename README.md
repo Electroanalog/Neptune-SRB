@@ -45,9 +45,8 @@ Designed for the PIC16F630 microcontroller, it uses a Timer0-driven architecture
 </details>
 
 > [!NOTE]
-> The default firmware uses **Red** (USA), **Green** (Japan), and **Yellow** (Europe) for the RGB status LED.  
-> These color assignments can be customized at compile time by modifying the `COLOR_*` definitions.
-> 
+> The RGB LED color assignments are configurable at compile time by modifying the `COLOR_*` definitions.
+>
 > See [Configuration](#configuration) for the **Region LED Colors** section.
 
 ### Button Usage
@@ -78,7 +77,7 @@ To build from source:
 - `MCLR` disabled (set as input)
 
 ### ⚡ Precompiled `.hex`
-For convenience, a precompiled **`.hex` file** is included in the [Releases](../../releases) section.  
+For convenience, two precompiled firmware variants **`.hex` file** are available in the [Releases](../../releases) section.  
 This allows quick flashing using:
 
 - **MPLAB IPE 6.20 or newer**
