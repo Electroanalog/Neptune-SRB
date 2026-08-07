@@ -283,11 +283,17 @@ If you build your own Neptune-SRB installation, feedback and testing results are
 ---
 ## Credits
 
-XC8 firmware implementation and new IGR logic by **Electroanalog® VICE** (2026)  
+XC8 firmware implementation and new IGR logic by **Electroanalog® VICE** (2026)
+
 Based on the **[SAT-SRB (Saturn Smart Reset Button)](https://github.com/Electroanalog/SAT-SRB)** firmware architecture by **Electroanalog® VICE** (2025)
 
 Developed for the **[Board-Folk's Neptune 32X/MD2](https://github.com/Board-Folk/Neptune)** hardware project.  
-Pinout compatible with the original **[Switchless Mod](https://github.com/atomicretronl/switchless)** by **Steve Maddison**.  
+Pinout compatible with the original **[Switchless Mod](https://github.com/atomicretronl/switchless)** by **Steve Maddison**.
+
+### About Electroanalog® VICE
+
+Custom hardware, firmware and electronic circuit development for retro gaming consoles and vintage electronics.  
+Official website: **[www.electroanalog.com](https://www.electroanalog.com)**
 
 *Sega Genesis, Mega Drive and Master System are registered trademarks of SEGA Corporation. All rights reserved.*
 
