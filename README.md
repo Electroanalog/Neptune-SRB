@@ -148,7 +148,7 @@ The In-Game Reset (IGR) feature requires four additional connections to the cont
 | 4 | RA3 | UP | 1 |
 | 9 | RC1 | TH | 7 |
 
-> [!IMPORTANT]
+> [!WARNING] 
 > - Without the additional IGR wiring, all standard Switchless functions remain fully operational. In the absence of these connections, disabling the **IGR** feature in the firmware is recommended.
 > - For Neptune board revisions up to r1.5, PIC pin **RA3** must be isolated from GND before connecting it to Controller Port Pin 1 (UP).
 > - Otherwise, Controller Port Pin 1 (UP) **must not** be connected, as **RA3** will remain tied to GND, causing the **UP** input to remain permanently asserted and preventing normal controller operation.
@@ -164,7 +164,6 @@ Reference schematic for Neptune boards up to the r1.5 release
 
 Click the image to enlarge 
 <br>
-
 
 > [!NOTE]
 > **1 kΩ** series resistors between the PIC controller inputs and the controller port are recommended to limit current during fault conditions while having negligible impact on normal operation. However, the firmware operates correctly without them, allowing existing Switchless installations to be upgraded without adding these resistors.
