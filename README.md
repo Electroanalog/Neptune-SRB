@@ -239,7 +239,10 @@ Available LED color definitions are:
 
 ### User Timing Constants
 
-The following constants control the user interface timing.
+> [!IMPORTANT]
+> Default timing values are optimized for reliable operation and are not recommended for modification.  
+
+The following constants control the user interface timing:
 
 ```c
 // USER TIMING CONSTANTS
@@ -248,14 +251,12 @@ The following constants control the user interface timing.
 #define IGR_HOLD    1000    // ms
 #define RST_PULSE   500     // ms
 ```
-
 | Constant | Description |
 |----------|-------------|
 | `STD_PRESS` | Threshold between short and medium button presses for a standard RESET. |
 | `EXT_PRESS` | Long-press threshold used to enter region selection mode. |
 | `IGR_HOLD` | Required controller hold time before an IGR is triggered. |
 | `RST_PULSE` | Duration of the hardware reset pulse. |
-
 
 [🔝 Back to top](#top)
 
